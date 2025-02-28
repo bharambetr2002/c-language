@@ -1,8 +1,10 @@
+// loop for counting till 100
+
 #include <stdio.h>
 int main()
 {
-    for (int a = 0; a < 100; a++) // give a value for a as it can take any limit
+    for (int i = 0; i <= 100; i++)
     {
-        printf("This is %d\n", a);
+        printf("\n %d", i);
     }
 }
